@@ -150,15 +150,6 @@ Tomáš Kazatel
 - složka <code>02_cviceni</code>
 
 
----
-
-# Druhý povinný úkol
-
-[https://classroom.github.com/a/eHB236TU](https://classroom.github.com/a/eHB236TU)
-
----
-
-
 
 
 
