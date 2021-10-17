@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(182, 179, 223);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 2rem 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 10vh 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  position: absolute;
+  top: 1rem;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  font-size: 2.5rem;
+  color: rgb(43, 43, 177);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(43, 43, 177);
+  font-size: 2rem;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.home {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.child,
+.parent {
+  margin: 0 3rem;
+}
+
+.sub {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.menu li {
+  border: 2px solid black;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: rgb(43, 43, 177);
+  border-radius: 10px;
+}
+
+.menu a {
+  font-size: 1rem;
+  color: white;
+}
+
+.container {
+  background-color: rgb(43, 43, 177);
+  border: 5px solid black;
+  width: 75%;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 6rem;
+}
+
+.item {
+  background-color: rgb(214, 68, 243);
+  min-height: 5rem;
+  min-width: 6rem;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Flex direction */
+.flex-direction {
+  flex-direction: row;
+}
+
+/* Flex wrap */
+.flex-wrap {
+  flex-wrap: nowrap;
+}
+
+/* Justify content */
+.justify-content {
+  justify-content: flex-start;
+}
+
+/* Align items */
+.align-items {
+  align-items: center;
+}
+
+/* Flex grow */
+.flex-grow {
+  flex-grow: 0;
+}
+
+/* Flex shrink */
+.flex-shrink {
+  flex-shrink: 5;
+}
+
+/* .item-shrink {
+  width: 200px;
+} */
+
+/* Flex basis */
+.flex-basis {
+  flex-basis: auto;
+}
+
+/*Order */
+.order {
+  order: 0;
+}
+
+/* Align self */
+.align-self {
+  align-self: auto;
+}

@@ -1,0 +1,41 @@
+/* 
+Čeho chceme dosáhnout
+
+	1. Logo a navigaci umístit vedle sebe do jednoho řádku a vycentrovat - logo umístit k levému a navigaci k pravému okraji.
+	2. Zařídit, aby se odkazy v navigaci srovnaly vedle sebe (horizontálně).
+	3. Úvodní obsah zarovnat na střed obrazovky.
+	4. Text v patičce také vycentrovat.
+  5. Obsah blogového článku rozdělit na dvě stejné poloviny - obrázek vlevo, text vpravo.
+
+*/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links ul {
+  display: flex;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+}
+
+.card-img,
+.card-content {
+  flex-basis: 50%;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
